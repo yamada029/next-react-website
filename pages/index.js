@@ -1,23 +1,10 @@
-import Header from '..components/header.js'
-import Hero from '..components/hero.js'
-import Footer from '..components/footer.js'
-import styles from '@/styles/Home.module.css'
-
-
+import Layout from 'components/Layout'
+import Hero from '..components/hero'
 
 export default function Home() {
   return(
-    <>
-    <header>HEADER</header>
-    
-    <main>
-      <div>
-        <h1>CUBE</h1>
-        <p>アウトプットしていくサイト</p>
-      </div>
-    </main>
-
-    <footer>FOOTER</footer>
-    </>
+    <Layout>
+      <Hero />
+    </Layout>
   )
 }
